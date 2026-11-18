@@ -21,12 +21,14 @@ This project focuses on implementing a Network Intrusion Detection System (NIDS)
 
 ## 4. Methodology
 1. Set up an isolated virtual laboratory environment.
-2. Establish communication between the laboratory devices.
-3. Capture network traffic using Wireshark.
-4. Apply display filters to identify TCP, DNS, and HTTP packets.
-5. Examine packet headers, connection establishment, and communication patterns.
-6. Analyse captured traffic and identify unusual or potentially suspicious behaviour.
-7. Save relevant packet captures and screenshots for documentation.
+2. Install Snort 3 and verify the installation.
+3. Configure the network interface and detection settings.
+4. Develop and configure custom local detection rules.
+5. Generate controlled and authorised test traffic.
+6. Monitor traffic and examine Snort-generated alerts.
+7. Compare detection results with the expected behaviour.
+8. Evaluate detection effectiveness and potential false positives.
+9. Document findings and propose improvements.
 
 ## 5. Results and Evidence
 Evidence will include configuration screenshots, custom detection rules, alert logs, and analysis reports.
