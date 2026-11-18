@@ -1,4 +1,4 @@
-# Network Intrusion Detection and Alert Analysis Using Snort 3
+Network Intrusion Detection and Alert Analysis Using Snort 3
 ## Project Status
 Planned
 
