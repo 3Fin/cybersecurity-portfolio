@@ -1,4 +1,4 @@
-# Network Traffic Analysis and Protocol Investigation Using Wireshark
+Network Traffic Analysis and Protocol Investigation Using Wireshark
 
 ## Project Status
 Planned
