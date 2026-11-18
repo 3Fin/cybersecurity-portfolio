@@ -20,13 +20,13 @@ This project focuses on implementing a Network Intrusion Detection System (NIDS)
 - Network Environment: Isolated Virtual Laboratory
 
 ## 4. Methodology
-1. Prepare the laboratory environment.
-2. Install Snort 3 and verify its operation.
-3. Configure the detection engine.
-4. Develop custom local detection rules.
-5. Generate controlled test traffic.
-6. Monitor and analyse Snort alerts.
-7. Document detection results.
+1. Set up an isolated virtual laboratory environment.
+2. Establish communication between the laboratory devices.
+3. Capture network traffic using Wireshark.
+4. Apply display filters to identify TCP, DNS, and HTTP packets.
+5. Examine packet headers, connection establishment, and communication patterns.
+6. Analyse captured traffic and identify unusual or potentially suspicious behaviour.
+7. Save relevant packet captures and screenshots for documentation.
 
 ## 5. Results and Evidence
 Evidence will include configuration screenshots, custom detection rules, alert logs, and analysis reports.
