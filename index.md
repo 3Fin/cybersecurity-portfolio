@@ -1,4 +1,4 @@
-# Welcome to My Cybersecurity Portfolio
+Welcome to My Cybersecurity Portfolio
 
 ## 1. About Me
 I am a cybersecurity student with a strong interest in network security, cybersecurity operations, and the practical application of security technologies. I enjoy exploring how computer networks operate, understanding potential security risks, and learning how different security mechanisms protect systems and data. Through coursework and hands-on laboratory exercises, I have been developing my knowledge of networking, system administration, and cybersecurity fundamentals. My learning experiences include network configuration, access control, firewall concepts, network traffic analysis, and security monitoring. I am particularly interested in network defence, threat detection, and security analysis. This portfolio documents my technical development, practical projects, laboratory experiences, and continuous learning journey as I work towards a career in the cybersecurity industry.
@@ -13,6 +13,7 @@ My current technical skills and areas of learning include:
 - **Network Simulation:** Cisco Packet Tracer
 - **Version Control:** Git and GitHub
 - **Security Learning:** Network traffic analysis, security monitoring, and troubleshooting
+
 I am continuing to strengthen these skills through coursework, laboratory exercises, and independent practical projects.
 
 ## 3. Certifications and Training
@@ -21,6 +22,7 @@ This section highlights my cybersecurity certifications, training, and continuou
 - **Coursework:** Cybersecurity and computer networking subjects.
 - **Practical Training:** Network configuration, security laboratory exercises, and troubleshooting.
 - **Independent Learning:** Exploring cybersecurity tools, network defence techniques, and security analysis.
+
 I continue to expand my technical knowledge through hands-on practice, academic learning, and independent cybersecurity study.
 
 ## 4. Projects
@@ -28,11 +30,14 @@ This portfolio contains practical projects developed in controlled laboratory en
 
 ### Project 1: Network Traffic Analysis and Protocol Investigation Using Wireshark
 This project focuses on capturing and analysing network traffic to understand communication protocols, TCP connections, DNS queries, HTTP communication, and network behaviour.
+
 [View Project](projects/network-traffic-analysis/README.md)
 
 ### Project 2: Network Intrusion Detection and Alert Analysis Using Snort 3
 This project focuses on implementing a Network Intrusion Detection System (NIDS), developing custom detection rules, monitoring laboratory traffic, and analysing security alerts.
+
 [View Project](projects/snort-intrusion-detection/README.md)
+
 Both projects are being developed in isolated laboratory environments for learning and security analysis.
 
 ## 5. Learning Journey
@@ -51,13 +56,11 @@ To address these areas, I am developing two practical projects using Wireshark a
 My next learning objective is to improve my network security analysis skills by completing these projects, documenting their results, and expanding my knowledge of intrusion detection. I will measure my progress through completed experiments, documented findings, working detection rules, and the quality of my technical reports.
 
 ## 6. Career Objective
-
 My career objective is to pursue a professional career in cybersecurity, particularly in network security, security operations, and threat detection. I aim to build a strong technical foundation and develop the practical skills required to investigate security events, analyse network traffic, identify potential threats, and support defensive security operations.
 
 To achieve this goal, I plan to continue strengthening my networking and Linux knowledge, complete practical cybersecurity projects, and become more proficient with security monitoring and analysis tools. I also intend to expand my knowledge through relevant training, certifications, and hands-on exercises in controlled environments. In the future, I hope to contribute to a cybersecurity team by applying technical knowledge, analytical thinking, and continuous learning to real-world security challenges.
 
 ## 7. Contact Information
-
 - **GitHub:** [3Fin](https://github.com/3Fin)
 - **Portfolio:** [Cybersecurity Portfolio](https://3Fin.github.io/cybersecurity-portfolio/)
 - **LinkedIn:** To be updated
