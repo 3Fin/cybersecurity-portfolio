@@ -69,3 +69,10 @@ Visit my GitHub Pages portfolio:
 - **GitHub:** [3Fin](https://github.com/3Fin)
 - **Portfolio:** [GitHub Pages](https://3Fin.github.io/cybersecurity-portfolio/)
 - **LinkedIn:** To be updated
+
+## Git Workflow
+This portfolio is maintained using Git and GitHub.
+- `main` is the primary branch for the portfolio.
+- Feature branches are used to develop and improve content.
+- Changes are reviewed through pull requests before being merged.
+- Meaningful commits document the development process.
