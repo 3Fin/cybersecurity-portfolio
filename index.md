@@ -1,5 +1,3 @@
-Welcome to My Cybersecurity Portfolio
-
 ## 1. About Me
 I am a cybersecurity student with a strong interest in network security, cybersecurity operations, and the practical application of security technologies. I enjoy exploring how computer networks operate, understanding potential security risks, and learning how different security mechanisms protect systems and data. Through coursework and hands-on laboratory exercises, I have been developing my knowledge of networking, system administration, and cybersecurity fundamentals. My learning experiences include network configuration, access control, firewall concepts, network traffic analysis, and security monitoring. I am particularly interested in network defence, threat detection, and security analysis. This portfolio documents my technical development, practical projects, laboratory experiences, and continuous learning journey as I work towards a career in the cybersecurity industry.
 
