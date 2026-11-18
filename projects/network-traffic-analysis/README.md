@@ -4,14 +4,15 @@
 Planned
 
 ## 1. Project Overview
-This project focuses on analysing network traffic and investigating communication protocols using Wireshark in an isolated laboratory environment.
+This project focuses on network traffic analysis and protocol investigation using Wireshark in an isolated laboratory environment. It aims to explore network communication behaviour, understand packet structures, and develop practical skills in identifying and analysing different network protocols.
 
-## 2. Objective
-- Understand network packet analysis.
-- Investigate TCP three-way handshakes.
+## 2. Objectives
+- Analyse network packets and protocol structures.
+- Investigate the TCP three-way handshake and connection behaviour.
 - Examine DNS queries and responses.
-- Analyse HTTP communication.
-- Identify unusual network traffic patterns.
+- Analyse HTTP requests, responses, and relevant headers.
+- Apply Wireshark display filters to isolate and investigate network traffic.
+- Identify unusual communication patterns within the laboratory environment.
 
 ## 3. Environment and Tools
 - Operating System: Kali Linux
@@ -21,17 +22,19 @@ This project focuses on analysing network traffic and investigating communicatio
 
 ## 4. Methodology
 1. Prepare an isolated laboratory environment.
-2. Configure network connectivity.
-3. Capture authorised laboratory traffic.
-4. Apply Wireshark display filters.
-5. Analyse packet headers and protocol behaviour.
-6. Record findings and observations.
+2. Establish network connectivity between laboratory devices.
+3. Capture authorised network traffic using Wireshark.
+4. Apply display filters to identify TCP, DNS, and HTTP packets.
+5. Analyse TCP connection establishment and packet exchanges.
+6. Investigate DNS queries and corresponding responses.
+7. Examine HTTP requests, responses, and protocol headers.
+8. Document observations and identify potential unusual traffic patterns.
 
 ## 5. Results and Evidence
-Evidence will include sanitised screenshots, packet analysis records, and a project report.
+Evidence will include sanitised screenshots of packet captures, relevant Wireshark display filters, packet analysis records, and a technical report documenting the findings.
 
 ## 6. Challenges and Improvements
-To be documented after completing the practical investigation.
+Challenges, troubleshooting procedures, and potential improvements will be documented after completing the practical investigation.
 
 ## 7. Conclusion
-This project aims to develop practical network traffic analysis and protocol investigation skills.
+This project aims to develop practical network traffic analysis skills, improve understanding of communication protocols, and strengthen the ability to interpret network behaviour using Wireshark.
