@@ -1,0 +1,2 @@
+    1 0.000000000 192.168.226.14 → 192.168.226.2 DNS 96 Standard query 0xa161 A example.com OPT
+    2 0.010627038 192.168.226.2 → 192.168.226.14 DNS 116 Standard query response 0xa161 A example.com A 104.20.23.154 A 172.66.147.243 OPT
