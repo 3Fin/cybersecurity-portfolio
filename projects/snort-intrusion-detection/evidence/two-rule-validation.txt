@@ -1,0 +1,28 @@
+--------------------------------------------------
+o")~   Snort++ 3.12.2.0
+--------------------------------------------------
+Loading rule args:
+Loading rules/local.rules:
+Finished rules/local.rules:
+Finished rule args:
+--------------------------------------------------
+rule counts
+       total rules loaded: 2
+               text rules: 2
+            option chains: 2
+            chain headers: 1
+--------------------------------------------------
+port rule counts
+             tcp     udp    icmp      ip
+     dst       2       0       0       0
+   total       2       0       0       0
+--------------------------------------------------
+fast pattern groups
+                      dst: 2
+--------------------------------------------------
+search engine (ac_bnfa)
+--------------------------------------------------
+pcap DAQ configured to passive.
+
+Snort successfully validated the configuration (with 0 warnings).
+o")~   Snort exiting

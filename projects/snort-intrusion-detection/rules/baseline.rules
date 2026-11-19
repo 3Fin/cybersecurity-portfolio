@@ -1,0 +1,2 @@
+# Detect the ordinary HTTP request used in the loopback laboratory.
+alert tcp 127.0.0.1 any -> 127.0.0.1 8000 (msg:"LAB baseline HTTP GET request"; content:"GET / HTTP/1.1"; sid:1000001; rev:1;)
