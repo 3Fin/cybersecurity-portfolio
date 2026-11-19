@@ -24,10 +24,10 @@ Completed on 19 November 2026 using TShark, Wireshark's command-line analyzer. I
 [View Project](projects/network-traffic-analysis/README.md)
 
 ### 2. Network Intrusion Detection and Alert Analysis Using Snort 3
-A practical project focused on implementing a Network Intrusion Detection System (NIDS), developing custom detection rules, and analysing security alerts.
+Completed laboratory experiments on 19 November 2026 using Snort 3.12.2.0. Includes two custom rules, offline control comparisons, configuration snapshots, and recorded live alerts.
 [View Project](projects/snort-intrusion-detection/README.md)
 
-The traffic analysis project is complete. The Snort 3 project is planned. Experiments use laboratory traffic and ordinary DNS resolution through the VM's configured resolver.
+Both projects have completed laboratory experiments and documented results. Experiments use laboratory traffic and ordinary DNS resolution through the VM's configured resolver.
 
 ## Repository Structure
 ```text
