@@ -3,17 +3,24 @@ Welcome to My Cybersecurity Portfolio
 I am a cybersecurity student with a strong interest in network security, cybersecurity operations, and the practical application of security technologies. I enjoy exploring how computer networks operate, understanding potential security risks, and learning how different security mechanisms protect systems and data. Through coursework and hands-on laboratory exercises, I have been developing my knowledge of networking, system administration, and cybersecurity fundamentals. My learning experiences include network configuration, access control, firewall concepts, network traffic analysis, and security monitoring. I am particularly interested in network defence, threat detection, and security analysis. This portfolio documents my technical development, practical projects, laboratory experiences, and continuous learning journey as I work towards a career in the cybersecurity industry.
 
 ## 2. Technical Skills
-My current technical skills and areas of learning include:
-- **Operating Systems:** Linux and Windows fundamentals
-- **Networking:** TCP/IP, IP addressing, subnetting, VLANs, routing, and switching
-- **Network Security:** Access Control Lists (ACLs), port security, firewall concepts, and VPN fundamentals
-- **Security Tools:** Wireshark and Nmap
-- **Programming:** Python fundamentals
-- **Network Simulation:** Cisco Packet Tracer
-- **Version Control:** Git and GitHub
-- **Security Learning:** Network traffic analysis, security monitoring, and troubleshooting
+My current skills are listed with self-assessment levels. Beginner means I can complete introductory exercises with guidance. Working knowledge means I can apply the fundamentals in familiar coursework and laboratory tasks.
 
-I am continuing to strengthen these skills through coursework, laboratory exercises, and independent practical projects.
+| Skill | Current level | Evidence or learning context |
+| --- | --- | --- |
+| Linux and Windows fundamentals | Working knowledge | Coursework and Kali laboratory use |
+| TCP/IP, IP addressing and subnetting | Working knowledge | [TCP and DNS investigation]({{ '/projects/network-traffic-analysis/' | relative_url }}) |
+| VLANs, routing and switching | Working knowledge | Cisco Packet Tracer coursework |
+| Access Control Lists and port security | Working knowledge | Networking security coursework |
+| Firewall concepts | Working knowledge | Course laboratory exercises |
+| VPN fundamentals | Beginner | Introductory coursework |
+| Wireshark and TShark | Beginner | [Packet capture and protocol analysis]({{ '/projects/network-traffic-analysis/' | relative_url }}) |
+| Snort 3 | Beginner | [Custom rules and alert analysis]({{ '/projects/snort-intrusion-detection/' | relative_url }}) |
+| Nmap | Beginner | Introductory tool learning |
+| Python | Beginner | Fundamental programming study |
+| Cisco Packet Tracer | Working knowledge | Network configuration coursework |
+| Git and GitHub | Working knowledge | Portfolio commits, branches and merged pull requests |
+| Network traffic analysis and security monitoring | Beginner | Both documented portfolio projects |
+| Troubleshooting | Working knowledge | Documented Wireshark display and Snort capture-file troubleshooting |
 
 ## 3. Certifications and Training
 This section highlights my cybersecurity certifications, training, and continuous professional development.
@@ -52,14 +59,14 @@ Although I have gained experience with network configuration and security fundam
 
 In my traffic analysis project, Wireshark failed to start because it could not connect to the graphical display. I identified the display connection error and switched to TShark. I verified the solution by saving and reading TCP, HTTP, and DNS captures. I documented a rejected connection, a successful handshake, an HTTP response, and a matching DNS query-response pair. In my Snort 3 project, I compared ordinary and marked requests. The marker rule triggered only for the marked sample, while the baseline rule matched both. This taught me to evaluate a rule against controls and interpret alerts in context.
 
-My next learning objective is to improve my network security analysis skills by completing these projects, documenting their results, and expanding my knowledge of intrusion detection. I will measure my progress through completed experiments, documented findings, working detection rules, and the quality of my technical reports.
+By 3 December 2026, I will complete three additional Snort rule test cases covering header capitalization, whitespace changes, and segmented TCP delivery. For each case, I will save the capture, rule version, expected result, observed alert count, and a short explanation. I will measure completion by publishing all three documented comparisons and explaining each result, including any missed matches. This goal will help me understand how signature design and protocol processing affect detection.
 
 ## 6. Career Objective
-My career objective is to pursue a professional career in cybersecurity, particularly in network security, security operations, and threat detection. I aim to build a strong technical foundation and develop the practical skills required to investigate security events, analyse network traffic, identify potential threats, and support defensive security operations.
+My career objective is to become an entry-level Security Operations Center (SOC) Analyst, with a focus on network security monitoring and threat detection. I aim to build a strong technical foundation and develop the practical skills required to investigate security events, analyse network traffic, identify potential threats, and support defensive security operations.
 
-To achieve this goal, I plan to continue strengthening my networking and Linux knowledge, complete practical cybersecurity projects, and become more proficient with security monitoring and analysis tools. I also intend to expand my knowledge through relevant training, certifications, and hands-on exercises in controlled environments. In the future, I hope to contribute to a cybersecurity team by applying technical knowledge, analytical thinking, and continuous learning to real-world security challenges.
+I will take three steps toward this role. First, I will strengthen my networking and Linux knowledge through regular laboratory practice. Second, I will extend my TShark and Snort projects with additional control tests and clearer analysis of detection limitations. Third, I will practise security alert triage through relevant training and controlled exercises, documenting how I examine evidence and decide what needs further investigation. In the future, I hope to contribute to a cybersecurity team by applying technical knowledge, analytical thinking, and continuous learning to real-world security challenges.
 
 ## 7. Contact Information
 - **GitHub:** [3Fin](https://github.com/3Fin)
 - **Portfolio:** [Cybersecurity Portfolio](https://3Fin.github.io/cybersecurity-portfolio/)
-- **LinkedIn:** To be updated
+- **LinkedIn:** [LinkedIn profile](https://www.linkedin.com/in/%E6%80%9D%E5%90%8D-%E9%99%88-9365a3450/)
