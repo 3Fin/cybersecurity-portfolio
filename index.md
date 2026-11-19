@@ -27,17 +27,17 @@ I continue to expand my technical knowledge through hands-on practice, academic 
 ## 4. Projects
 This portfolio contains practical projects developed in controlled laboratory environments.
 
-### Project 1: Network Traffic Analysis and Protocol Investigation Using Wireshark
-This project focuses on capturing and analysing network traffic to understand communication protocols, TCP connections, DNS queries, HTTP communication, and network behaviour.
+### Project 1: Network Traffic Analysis and Protocol Investigation Using TShark
+Completed on 19 November 2026. I used TShark, Wireshark's command-line analyzer, to investigate TCP connections, HTTP communication, and DNS resolution. The report includes original captures, screenshots, protocol analysis, and checksum-verified evidence.
 
-[View Project](projects/network-traffic-analysis/README.md)
+[View Project]({{ '/projects/network-traffic-analysis/' | relative_url }})
 
 ### Project 2: Network Intrusion Detection and Alert Analysis Using Snort 3
 This project focuses on implementing a Network Intrusion Detection System (NIDS), developing custom detection rules, monitoring laboratory traffic, and analysing security alerts.
 
-[View Project](projects/snort-intrusion-detection/README.md)
+[View Project]({{ '/projects/snort-intrusion-detection/' | relative_url }})
 
-Both projects are being developed in isolated laboratory environments for learning and security analysis.
+The traffic analysis project is complete. The Snort 3 intrusion detection project is planned. HTTP traffic was generated on the Kali loopback interface, and DNS resolution used the VM's configured resolver.
 
 ## 5. Learning Journey
 My cybersecurity learning journey has gradually developed from understanding networking fundamentals to exploring network security mechanisms and practical security analysis. Through coursework and laboratory exercises, I have learned how devices communicate, how networks are structured, and how security controls can be implemented to protect network resources.
@@ -50,7 +50,7 @@ Troubleshooting has been an important part of my learning experience. During net
 
 Although I have gained experience with network configuration and security fundamentals, I still need to improve my understanding of packet-level analysis, intrusion detection, and the interpretation of security events. I want to become more confident in identifying suspicious network behaviour and understanding how detection systems distinguish normal traffic from potentially malicious activity.
 
-To address these areas, I am developing two practical projects using Wireshark and Snort 3 in isolated laboratory environments. These projects will allow me to investigate network protocols, analyse captured traffic, develop detection rules, and examine generated security alerts. My goal is to document each experiment, preserve relevant evidence, analyse the results, and reflect on the limitations of my approach.
+In my traffic analysis project, Wireshark failed to start because it could not connect to the graphical display. I identified the display connection error and switched to TShark. I verified the solution by saving and reading TCP, HTTP, and DNS captures. I documented a rejected connection, a successful handshake, an HTTP response, and a matching DNS query-response pair. My planned Snort 3 project will build on this experience through detection rules and alert analysis.
 
 My next learning objective is to improve my network security analysis skills by completing these projects, documenting their results, and expanding my knowledge of intrusion detection. I will measure my progress through completed experiments, documented findings, working detection rules, and the quality of my technical reports.
 

@@ -19,15 +19,15 @@ I am a cybersecurity student interested in network security, cybersecurity opera
 - **Version Control:** Git and GitHub
 
 ## Featured Projects
-### 1. Network Traffic Analysis and Protocol Investigation Using Wireshark
-A practical project focused on capturing and analysing network traffic, investigating TCP handshakes, DNS queries, HTTP communication, and network behaviour.
+### 1. Network Traffic Analysis and Protocol Investigation Using TShark
+Completed on 19 November 2026 using TShark, Wireshark's command-line analyzer. Includes original TCP/HTTP and DNS captures, protocol analysis, screenshots, and verified SHA-256 checksums.
 [View Project](projects/network-traffic-analysis/README.md)
 
 ### 2. Network Intrusion Detection and Alert Analysis Using Snort 3
 A practical project focused on implementing a Network Intrusion Detection System (NIDS), developing custom detection rules, and analysing security alerts.
 [View Project](projects/snort-intrusion-detection/README.md)
 
-Both projects are designed for controlled and isolated laboratory environments.
+The traffic analysis project is complete. The Snort 3 project is planned. Experiments use laboratory traffic and ordinary DNS resolution through the VM's configured resolver.
 
 ## Repository Structure
 ```text
