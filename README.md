@@ -10,13 +10,10 @@ I am a cybersecurity student interested in network security, cybersecurity opera
 - **NISP Level 2 Certificate**
 
 ## Technical Skills
-- **Operating Systems:** Linux, Windows
-- **Networking:** TCP/IP, IP Addressing, Subnetting, VLANs, Routing and Switching
-- **Network Security:** ACLs, Port Security, Firewall Concepts, VPN Fundamentals
-- **Security Tools:** Wireshark, Nmap
-- **Programming:** Python Fundamentals
-- **Network Simulation:** Cisco Packet Tracer
-- **Version Control:** Git and GitHub
+- **Working knowledge:** Linux and Windows fundamentals; TCP/IP, IP addressing and subnetting; VLANs, routing and switching; ACLs and port security; firewall concepts; Cisco Packet Tracer; Git and GitHub; troubleshooting.
+- **Beginner:** Wireshark and TShark; Snort 3; Nmap; Python; VPN fundamentals; network traffic analysis and security monitoring.
+
+See the [live portfolio](https://3Fin.github.io/cybersecurity-portfolio/) for individual skill levels and linked project evidence.
 
 ## Featured Projects
 ### 1. Network Traffic Analysis and Protocol Investigation Using TShark
@@ -24,10 +21,10 @@ Completed on 19 November 2026 using TShark, Wireshark's command-line analyzer. I
 [View Project](projects/network-traffic-analysis/README.md)
 
 ### 2. Network Intrusion Detection and Alert Analysis Using Snort 3
-A practical project focused on implementing a Network Intrusion Detection System (NIDS), developing custom detection rules, and analysing security alerts.
+Completed laboratory experiments on 19 November 2026 using Snort 3.12.2.0. Includes two custom rules, offline control comparisons, configuration snapshots, and recorded live alerts.
 [View Project](projects/snort-intrusion-detection/README.md)
 
-The traffic analysis project is complete. The Snort 3 project is planned. Experiments use laboratory traffic and ordinary DNS resolution through the VM's configured resolver.
+Both projects have completed laboratory experiments and documented results. Experiments use laboratory traffic and ordinary DNS resolution through the VM's configured resolver.
 
 ## Repository Structure
 ```text
@@ -42,6 +39,7 @@ cybersecurity-portfolio/
 │   │   └── evidence/
 │   └── snort-intrusion-detection/
 │       ├── README.md
+│       ├── config/
 │       ├── rules/
 │       │   └── local.rules
 │       └── evidence/
@@ -68,7 +66,7 @@ Visit my GitHub Pages portfolio:
 ## Contact
 - **GitHub:** [3Fin](https://github.com/3Fin)
 - **Portfolio:** [GitHub Pages](https://3Fin.github.io/cybersecurity-portfolio/)
-- **LinkedIn:** To be updated
+- **LinkedIn:** [LinkedIn profile](https://www.linkedin.com/in/%E6%80%9D%E5%90%8D-%E9%99%88-9365a3450/)
 
 ## Git Workflow
 This portfolio is maintained using Git and GitHub.
