@@ -1,0 +1,125 @@
+Script started on 2026-11-19 13:09:06+08:00 [COMMAND="/usr/sbin/snort -c /etc/snort/snort.lua -R rules/local.rules -i lo -A alert_fast -k none" TERM="xterm" TTY="/dev/pts/3" COLUMNS="120" LINES="46"]
+--------------------------------------------------
+o")~   Snort++ 3.12.2.0
+--------------------------------------------------
+Loading /etc/snort/snort.lua:
+Loading snort_defaults.lua:
+Finished snort_defaults.lua:
+	dce_smb
+	dce_tcp
+	dce_udp
+	dce_http_proxy
+	dce_http_server
+	gtp_inspect
+	port_scan
+	smtp
+	ftp_server
+	ftp_client
+	ftp_data
+	http_inspect
+	file_policy
+	js_norm
+	appid
+	wizard
+	references
+	classifications
+	ips
+	binder
+	file_inspect
+	http2_inspect
+	mms
+	dnp3
+	decode
+	host_tracker
+	network
+	output
+	active
+	alerts
+	daq
+	host_cache
+	hosts
+	packets
+	search_engine
+	stream
+	stream_ip
+	process
+	stream_icmp
+	stream_tcp
+	stream_udp
+	stream_user
+	stream_file
+	arp_spoof
+	back_orifice
+	dns
+	imap
+	netflow
+	normalizer
+	pop
+	rpc_decode
+	sip
+	socks
+	ssh
+	ssl
+	telnet
+	cip
+	iec104
+	modbus
+	opcua
+	s7commplus
+Finished /etc/snort/snort.lua:
+Loading file_inspect.rules_file:
+Loading file_magic.rules:
+Finished file_magic.rules:
+Finished file_inspect.rules_file:
+Loading rule args:
+Loading rules/local.rules:
+Finished rules/local.rules:
+Finished rule args:
+--------------------------------------------------
+ips policies rule stats
+              id  loaded  shared enabled    file
+               1     221       0     221    /etc/snort/snort.lua
+--------------------------------------------------
+rule counts
+       total rules loaded: 221
+               text rules: 221
+            option chains: 221
+            chain headers: 2
+--------------------------------------------------
+port rule counts
+             tcp     udp    icmp      ip
+     dst       2       0       0       0
+   total       2       0       0       0
+--------------------------------------------------
+service rule counts          to-srv  to-cli
+                  file_id:      219     219
+                    total:      219     219
+--------------------------------------------------
+fast pattern groups
+                      dst: 2
+                to_server: 1
+                to_client: 1
+--------------------------------------------------
+search engine (ac_bnfa)
+                instances: 3
+                 patterns: 440
+            pattern chars: 2645
+               num states: 1875
+         num match states: 394
+             memory scale: KB
+             total memory: 73.416
+           pattern memory: 19.7676
+        match list memory: 28.8359
+        transition memory: 24.4375
+appid: MaxRss diff: 2816
+appid: patterns loaded: 300
+--------------------------------------------------
+pcap DAQ configured to passive.
+Commencing packet processing
+Retry queue interval is: 200 ms
+++ [0] lo
+11/19-13:09:13.742615 [**] [1:1000001:1] "LAB baseline HTTP GET request" [**] [Priority: 0] {TCP} 127.0.0.1:52442 -> 127.0.0.1:8000
+11/19-13:09:19.562383 [**] [1:1000002:1] "LAB custom test header detected" [**] [Priority: 0] {TCP} 127.0.0.1:52454 -> 127.0.0.1:8000
+11/19-13:09:19.562383 [**] [1:1000001:1] "LAB baseline HTTP GET request" [**] [Priority: 0] {TCP} 127.0.0.1:52454 -> 127.0.0.1:8000
+^C** caught int signal
+== stopping

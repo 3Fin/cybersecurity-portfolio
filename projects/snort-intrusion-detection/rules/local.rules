@@ -1,1 +1,5 @@
-# Custom Snort 3 detection rules for the authorised laboratory.
+# Detect the ordinary laboratory GET request.
+alert tcp 127.0.0.1 any -> 127.0.0.1 8000 (msg:"LAB baseline HTTP GET request"; content:"GET / HTTP/1.1"; sid:1000001; rev:1;)
+
+# Detect a deliberately inserted laboratory header.
+alert tcp 127.0.0.1 any -> 127.0.0.1 8000 (msg:"LAB custom test header detected"; content:"X-Portfolio-Test|3a 20|snort-demo"; sid:1000002; rev:1;)

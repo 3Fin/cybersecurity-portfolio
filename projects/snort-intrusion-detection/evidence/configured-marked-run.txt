@@ -1,0 +1,244 @@
+--------------------------------------------------
+o")~   Snort++ 3.12.2.0
+--------------------------------------------------
+Loading /etc/snort/snort.lua:
+Loading snort_defaults.lua:
+Finished snort_defaults.lua:
+	host_cache
+	host_tracker
+	hosts
+	network
+	packets
+	process
+	search_engine
+	stream
+	stream_ip
+	stream_icmp
+	stream_tcp
+	stream_udp
+	stream_user
+	stream_file
+	arp_spoof
+	back_orifice
+	dns
+	imap
+	netflow
+	normalizer
+	sip
+	socks
+	ssh
+	dnp3
+	iec104
+	mms
+	modbus
+	dce_smb
+	dce_tcp
+	dce_http_proxy
+	dce_http_server
+	ftp_client
+	ftp_data
+	http2_inspect
+	ips
+	file_inspect
+	references
+	classifications
+	output
+	binder
+	wizard
+	appid
+	js_norm
+	file_policy
+	http_inspect
+	ftp_server
+	smtp
+	port_scan
+	gtp_inspect
+	dce_udp
+	s7commplus
+	opcua
+	cip
+	telnet
+	ssl
+	rpc_decode
+	pop
+	active
+	alerts
+	daq
+	decode
+Finished /etc/snort/snort.lua:
+Loading file_inspect.rules_file:
+Loading file_magic.rules:
+Finished file_magic.rules:
+Finished file_inspect.rules_file:
+Loading rule args:
+Loading rules/local.rules:
+Finished rules/local.rules:
+Finished rule args:
+--------------------------------------------------
+ips policies rule stats
+              id  loaded  shared enabled    file
+               1     221       0     221    /etc/snort/snort.lua
+--------------------------------------------------
+rule counts
+       total rules loaded: 221
+               text rules: 221
+            option chains: 221
+            chain headers: 2
+--------------------------------------------------
+port rule counts
+             tcp     udp    icmp      ip
+     dst       2       0       0       0
+   total       2       0       0       0
+--------------------------------------------------
+service rule counts          to-srv  to-cli
+                  file_id:      219     219
+                    total:      219     219
+--------------------------------------------------
+fast pattern groups
+                      dst: 2
+                to_server: 1
+                to_client: 1
+--------------------------------------------------
+search engine (ac_bnfa)
+                instances: 3
+                 patterns: 440
+            pattern chars: 2645
+               num states: 1875
+         num match states: 394
+             memory scale: KB
+             total memory: 73.416
+           pattern memory: 19.7676
+        match list memory: 28.8359
+        transition memory: 24.4375
+appid: MaxRss diff: 2688
+appid: patterns loaded: 300
+--------------------------------------------------
+pcap DAQ configured to read-file.
+Commencing packet processing
+Retry queue interval is: 200 ms
+++ [0] evidence/marked-http.pcap
+11/19-12:48:17.427333 [**] [1:1000002:1] "LAB custom test header detected" [**] [Priority: 0] {TCP} 127.0.0.1:58688 -> 127.0.0.1:8000
+11/19-12:48:17.427333 [**] [1:1000001:1] "LAB baseline HTTP GET request" [**] [Priority: 0] {TCP} 127.0.0.1:58688 -> 127.0.0.1:8000
+-- [0] evidence/marked-http.pcap
+--------------------------------------------------
+Packet Statistics
+--------------------------------------------------
+daq
+                    pcaps: 1
+                 received: 12
+                 analyzed: 12
+                    allow: 12
+                 rx_bytes: 1181
+--------------------------------------------------
+codec
+                    total: 12          	(100.000%)
+                      eth: 12          	(100.000%)
+                     ipv4: 12          	(100.000%)
+                      tcp: 12          	(100.000%)
+--------------------------------------------------
+Module Statistics
+--------------------------------------------------
+ac_bnfa
+                 searches: 2
+                  matches: 2
+                    bytes: 187
+--------------------------------------------------
+ac_full
+                 searches: 7
+                  matches: 7
+                    bytes: 168
+--------------------------------------------------
+appid
+                  packets: 12
+        processed_packets: 12
+           total_sessions: 1
+       service_cache_adds: 1
+             bytes_in_use: 168
+             items_in_use: 1
+--------------------------------------------------
+binder
+                new_flows: 1
+          service_changes: 1
+                 inspects: 1
+--------------------------------------------------
+detection
+                 analyzed: 12
+             raw_searches: 1
+             pkt_searches: 1
+            file_searches: 1
+                   alerts: 2
+             total_alerts: 2
+                   logged: 2
+--------------------------------------------------
+file_inspect
+              total_files: 1
+          total_file_data: 79
+     max_concurrent_files: 1
+--------------------------------------------------
+http_inspect
+                    flows: 1
+                    scans: 5
+              reassembles: 5
+              inspections: 5
+                 requests: 1
+                responses: 1
+             get_requests: 1
+  max_concurrent_sessions: 1
+              total_bytes: 361
+--------------------------------------------------
+ips_actions
+                    alert: 2
+--------------------------------------------------
+port_scan
+                  packets: 12
+                 trackers: 2
+--------------------------------------------------
+search_engine
+               max_queued: 2
+            total_flushed: 2
+            total_inserts: 2
+             total_unique: 2
+         qualified_events: 2
+--------------------------------------------------
+stream
+                    flows: 1
+             total_prunes: 1
+             flows_closed: 1
+--------------------------------------------------
+stream_tcp
+                 sessions: 1
+                      max: 1
+                  created: 1
+                 released: 1
+             instantiated: 1
+                   setups: 1
+                 restarts: 1
+             syn_trackers: 1
+              segs_queued: 3
+            segs_released: 3
+                segs_used: 3
+          rebuilt_packets: 5
+            rebuilt_bytes: 373
+                     syns: 1
+                 syn_acks: 1
+                     fins: 2
+                 max_segs: 1
+                max_bytes: 186
+--------------------------------------------------
+wizard
+                tcp_scans: 1
+                 tcp_hits: 1
+--------------------------------------------------
+Appid Statistics
+--------------------------------------------------
+detected apps and services
+              Application: Services   Clients    Users      Payloads   Misc       Referred  
+                  unknown: 1          1          0          1          0          0         
+--------------------------------------------------
+Summary Statistics
+--------------------------------------------------
+timing
+                  runtime: 00:00:00
+                  seconds: 0.027840
+                 pkts/sec: 431
+o")~   Snort exiting

@@ -1,0 +1,6 @@
+Normal HTTP request
+  Rule 1000001: 1 alert(s)
+  Rule 1000002: 0 alert(s)
+Marked HTTP request
+  Rule 1000001: 1 alert(s)
+  Rule 1000002: 1 alert(s)
