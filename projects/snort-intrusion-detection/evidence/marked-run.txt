@@ -1,0 +1,92 @@
+--------------------------------------------------
+o")~   Snort++ 3.12.2.0
+--------------------------------------------------
+Loading rule args:
+Loading rules/local.rules:
+Finished rules/local.rules:
+Finished rule args:
+--------------------------------------------------
+rule counts
+       total rules loaded: 2
+               text rules: 2
+            option chains: 2
+            chain headers: 1
+--------------------------------------------------
+port rule counts
+             tcp     udp    icmp      ip
+     dst       2       0       0       0
+   total       2       0       0       0
+--------------------------------------------------
+fast pattern groups
+                      dst: 2
+--------------------------------------------------
+search engine (ac_bnfa)
+                instances: 1
+                 patterns: 2
+            pattern chars: 43
+               num states: 43
+         num match states: 2
+             memory scale: KB
+             total memory: 2.13477
+           pattern memory: 0.119141
+        match list memory: 0.398438
+        transition memory: 1.49219
+--------------------------------------------------
+pcap DAQ configured to read-file.
+Commencing packet processing
+Retry queue interval is: 200 ms
+++ [0] evidence/marked-http.pcap
+11/19-12:48:17.427333 [**] [1:1000002:1] "LAB custom test header detected" [**] [Priority: 0] {TCP} 127.0.0.1:58688 -> 127.0.0.1:8000
+11/19-12:48:17.427333 [**] [1:1000001:1] "LAB baseline HTTP GET request" [**] [Priority: 0] {TCP} 127.0.0.1:58688 -> 127.0.0.1:8000
+-- [0] evidence/marked-http.pcap
+--------------------------------------------------
+Packet Statistics
+--------------------------------------------------
+daq
+                    pcaps: 1
+                 received: 12
+                 analyzed: 12
+                    allow: 12
+                 rx_bytes: 1181
+--------------------------------------------------
+codec
+                    total: 12          	(100.000%)
+                      eth: 12          	(100.000%)
+                     ipv4: 12          	(100.000%)
+                      tcp: 12          	(100.000%)
+--------------------------------------------------
+Module Statistics
+--------------------------------------------------
+ac_bnfa
+                 searches: 1
+                  matches: 2
+                    bytes: 108
+--------------------------------------------------
+detection
+                 analyzed: 12
+             raw_searches: 1
+             pkt_searches: 1
+                   alerts: 2
+             total_alerts: 2
+                   logged: 2
+--------------------------------------------------
+ips_actions
+                    alert: 2
+--------------------------------------------------
+search_engine
+               max_queued: 2
+            total_flushed: 2
+            total_inserts: 2
+             total_unique: 2
+         qualified_events: 2
+--------------------------------------------------
+stream
+     no_flow_no_inspector: 12
+--------------------------------------------------
+Summary Statistics
+--------------------------------------------------
+timing
+                  runtime: 00:00:00
+                  seconds: 0.025049
+                 pkts/sec: 479
+o")~   Snort exiting
